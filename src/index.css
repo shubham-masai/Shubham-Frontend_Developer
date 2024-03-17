@@ -7,6 +7,7 @@
 
 * {
   background-color: black;
+  box-sizing: border-box;
 }
 
 .card-div {
@@ -20,7 +21,10 @@
 
 .roadmap{
   font-size: 44px;
-  color: red;
   background-color: transparent;
   font-family: shojumaru;
+}
+
+.bg-removel {
+  background-color: rgba(0, 0, 0, 0); 
 }
