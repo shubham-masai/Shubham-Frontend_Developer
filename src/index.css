@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Shojumaru&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -27,4 +28,15 @@
 
 .bg-removel {
   background-color: rgba(0, 0, 0, 0); 
+}
+
+
+.presale{
+  border: 2px solid red;
+  border-radius: 2rem;
+}
+
+.zeroDiv{
+  border: 1px solid red;
+  border-radius: 5px;
 }

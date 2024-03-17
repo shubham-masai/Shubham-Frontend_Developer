@@ -11,4 +11,14 @@ import card4 from "./card4.png"
 import tokenomicsbg from "./tokenomics-bg.png"
 import tokenomics from "./tokenomics.png"
 import idobg from "./idobg.png"
-export { Rectangle18, LogoSaviour, menu, dropdown, intrologo, roadmap, card1, card2, card3, card4, tokenomicsbg, tokenomics, idobg} 
+import copyicon from "./copy-icon.png"
+import footerLogo from "./footerLogo.png"
+import socialmedia from "./socialmedia.png"
+import twitter from "./twitter.png"
+import email from "./email.png"
+import telegram from "./telegram.png"
+import faqimg  from "./faqimg.png"
+import uparrow from "./uparrow.png"
+export { Rectangle18, LogoSaviour, menu, dropdown, intrologo, roadmap, card1, card2, card3, card4, tokenomicsbg, tokenomics, idobg, copyicon, footerLogo,socialmedia
+,
+twitter,email,telegram,faqimg, uparrow } 

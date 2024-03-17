@@ -13,6 +13,7 @@ module.exports = {
       fontFamily: {
         shojumaru: ["Shojumaru", "cursive"],
         zcool: ["ZCOOL KuaiLe", "cursive"],
+        roboto: ["Roboto Mono","monospace"]
       },
     },
     screens: {
