@@ -17,26 +17,93 @@
   border-radius: 13.169812202453613px;
   border: 2px solid red;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(10, 28, 61, 0.2) 70%, rgba(237, 1, 55, 0.09) 100%);
+
+}
+
+.card-container{
+  transition: transform 0.5s ease-in-out;
+}
+
+.card-container:hover{
+  transform: scale(1.1);
 }
 
 
-.roadmap{
+.roadmap {
   font-size: 44px;
   background-color: transparent;
   font-family: shojumaru;
 }
 
 .bg-removel {
-  background-color: rgba(0, 0, 0, 0); 
+  background-color: rgba(0, 0, 0, 0);
 }
 
 
-.presale{
+.presale {
   border: 2px solid red;
   border-radius: 2rem;
 }
 
-.zeroDiv{
+.zeroDiv {
   border: 1px solid red;
   border-radius: 5px;
+}
+
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.intro-animation-left {
+  animation: slideInFromLeft 1s ease-in-out forwards;
+}
+
+.intro-animation-right {
+  animation: slideInFromRight 1s ease-in-out forwards;
+}
+
+
+.zoom-on-hover img {
+  transition: transform 0.5s ease-in-out; 
+ }
+ 
+ .zoom-on-hover:hover img {
+  transform: scale(1.1);
+ }
+
+ @keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+ }
+  50% {
+    transform: scale(1.1); 
+ }
+  100% {
+    transform: scale(1);
+ }
+}
+
+.zoom-effect {
+ animation: zoomInOut 5s infinite;
 }

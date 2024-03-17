@@ -54,7 +54,7 @@ const Tokenomix = () => {
                             </div>
                         </div>
                         <div className="basis-1/2 h-[100%] self-center bg-transparent">
-                            <div className="h-[100%] flex justify-center items-center bg-transparent">
+                            <div className="h-[100%] flex justify-center items-center bg-transparent zoom-on-hover">
                                 <img
                                     height={706}
                                     width={1512}

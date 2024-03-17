@@ -4,7 +4,7 @@ import { dropdown, intrologo } from '../assets';
 const Introduction = () => {
     return (
         <div className="flex flex-col md:flex-row justify-center items-center px-[10%] gap-10 overflow-x-hidden">
-            <div className="w-full md:w-1/2 flex flex-col gap-4 md:flex-grow-0">
+            <div className="w-full md:w-1/2 flex flex-col gap-4 md:flex-grow-0  intro-animation-left">
                 <h1 className="text-left font-shojumaru text-red-500 text-4xl font-normal leading-[52px] tracking-normal">INTRODUCTION</h1>
                 <p className="text-left text-white font-zcool text-[1.4rem]">
                     We've all been in the mud once, and now we've decided to
@@ -22,7 +22,7 @@ const Introduction = () => {
                 </button>
 
             </div>
-            <div className="w-full md:w-1/2 ">
+            <div className="w-full md:w-1/2 intro-animation-right">
                 <img
                     src={intrologo}
                     alt="Brik-matrix-logo"

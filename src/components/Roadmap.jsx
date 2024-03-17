@@ -11,9 +11,9 @@ const Roadmap = () => {
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
             }}>
-            <p className="roadmap text-red-500">ROAD MAP</p>
+            <p className="roadmap text-red-500 mt-[2rem]">ROAD MAP</p>
             <div className="w-full flex flex-wrap justify-center gap-10 bg-transparent mt-20 relative">
-                <div className="card-container relative">
+                <div className="card-container relative ">
                     <img src={card1} alt="card1" className="card-div"/>
                     <div className="text-white absolute bottom-4 left-4 p-3 w-full bg-transparent">
                         <p className='bg-transparent font-bold'>Phase 1</p>
