@@ -10,4 +10,5 @@ import card3 from "./card3.png"
 import card4 from "./card4.png"
 import tokenomicsbg from "./tokenomics-bg.png"
 import tokenomics from "./tokenomics.png"
-export { Rectangle18, LogoSaviour, menu, dropdown, intrologo, roadmap, card1, card2, card3, card4, tokenomicsbg, tokenomics} 
+import idobg from "./idobg.png"
+export { Rectangle18, LogoSaviour, menu, dropdown, intrologo, roadmap, card1, card2, card3, card4, tokenomicsbg, tokenomics, idobg} 
