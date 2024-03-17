@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Shojumaru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  background-color: black;
+}
+
+.card-div {
+  max-width: 237.06px;
+  max-height: 349px;
+  border-radius: 13.169812202453613px;
+  border: 2px solid red;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(10, 28, 61, 0.2) 70%, rgba(237, 1, 55, 0.09) 100%);
+}
+
+
+.roadmap{
+  font-size: 44px;
+  color: red;
+  background-color: transparent;
+  font-family: shojumaru;
+}
