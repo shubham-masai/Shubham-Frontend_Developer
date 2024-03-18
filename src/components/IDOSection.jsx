@@ -1,7 +1,10 @@
 import React from "react";
 import { copyicon, idobg } from "../assets";
-
+import { useWeb3Modal } from '@web3modal/wagmi1/react'
 const IDOEventSection = () => {
+
+    const { open } = useWeb3Modal();
+
     return (
         <div className="bg-black w-full h-auto flex flex-col items-center text-white overflow-x-hidden">
             <div className="flex flex-col items-center text-white" style={{
@@ -79,7 +82,7 @@ const IDOEventSection = () => {
                                 </div>
                             </div>
 
-                            <button className="bg-gradient-to-r from-[#ED0137] to-[#EE6910] rounded-[1.3rem] p-[8px] text-[16px] font-zcool text-white shadow-lg h-[50px] w-[180px] flex items-center justify-center gap-2 mt-6">
+                            <button className="bg-gradient-to-r from-[#ED0137] to-[#EE6910] rounded-[1.3rem] p-[8px] text-[16px] font-zcool text-white shadow-lg h-[50px] w-[180px] flex items-center justify-center gap-2 mt-6" onClick={() => open()}>
                                 Connect Wallet
                             </button>
                             <p className="font-shojumaru text-[1.8rem] text-red-500 text-center mt-[1rem] mb-[2rem] bg-transparent">

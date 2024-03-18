@@ -1,7 +1,11 @@
 import React from "react";
 import { LogoSaviour, dropdown, menu } from "../assets";
+import { useWeb3Modal } from '@web3modal/wagmi1/react'
 
 function Navbar() {
+
+    const { open } = useWeb3Modal();
+
     return (
         <div className="fixed flex justify-between items-center h-[117px] w-full p-[27px] p-[5%] top-[27px] bg-transparent z-50">
             {/* Left side - Logo and Saviour text */}
@@ -34,7 +38,7 @@ function Navbar() {
             </div>
 
             {/* Right side - Connect Wallet button */}
-            <button className="bg-gradient-to-r from-[#ED0137] to-[#EE6910] rounded-[1.1rem] p-[10px] text-[12px] text-white shadow-lg h-[50px] w-[137px]">
+            <button className="bg-gradient-to-r from-[#ED0137] to-[#EE6910] rounded-[1.1rem] p-[10px] text-[12px] text-white shadow-lg h-[50px] w-[137px]" onClick={() => open()}>
                 Connect Wallet
             </button>
         </div>
